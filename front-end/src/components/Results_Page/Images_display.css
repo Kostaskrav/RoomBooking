@@ -1,0 +1,74 @@
+img.main_img {
+    max-width: 100%;
+    height: 395px;
+    width: 100%;
+    border-radius: 3%;
+  }
+  img.secondary_img {
+    max-width: 100%;
+    height: 193px;
+    width: 100%;/*maintain aspect ratio*/
+    border-radius: 3%;
+  }
+
+  /* .img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    transition effect. not necessary
+    transition: opacity .2s, visibility .2s;
+  } */
+.container{
+    position: relative;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 1.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 1.5%;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .text {
+
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  /* .img__wrap:hover  {
+    box-shadow:inset 0 0 70px #000000;
+    visibility: visible;
+    opacity: 1;
+  } */
